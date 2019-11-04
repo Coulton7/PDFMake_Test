@@ -11,6 +11,8 @@ var docDefinition = {
     subject: 'POLICY TO PREVENT GLOBAL WARMING'
   },
 
+  pageMargins: [10, 20, 10, 20],
+
   content: [
     {text:'POLICY TO PREVENT GLOBAL WARMING\n\n', style: 'header'},
     {text:'The health of the Earth is essential to not just business, but also species survival.\n\n', style: 'subheader'},
