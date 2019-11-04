@@ -33,5 +33,5 @@ var docDefinition = {
   }
 };
 
-var pdf = pdfmake.createPdf(docDefinition).download();
+var pdf = pdfMake.createPdf(docDefinition).download();
 }
