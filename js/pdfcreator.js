@@ -18,7 +18,7 @@ var docDefinition = {
        'The Health, Safety and Welfare of all the stakeholders in our Group is the primary concern of the Board of ', orgName.value, '.\n\n'
      ]
    },
-    'The Group has consistently put sustainability projects first for capital investment and has now decided to debate and publish a policy to prevent global warming through technological change and investment decisions.',
+    'The Group has consistently put sustainability projects first for capital investment and has now decided to debate and publish a policy to prevent global warming through technological change and investment decisions.\n\n',
     {
     ul: [
       'Any sustainability project will be given priority over any other capital investment with a similar Return on Investment.\n\n',
@@ -29,7 +29,7 @@ var docDefinition = {
       'Current or potential supplier input is welcomed, including their use of the global hotline where necessary.\n\n'
     ],
   },
-    {text:['The Board of ', orgName.value, '. encourages the use of the global “hotline” on ',  orgPhone.value, ' or by email on ', orgEmail.value, 'to assist with the discreet implementation of this policy where necessary.']}
+    {text:['The Board of ', orgName.value, '. encourages the use of the global “hotline” on ',  orgPhone.value, ' or by email on ', orgEmail.value, ' to assist with the discreet implementation of this policy where necessary.']}
   ],
 
   styles: {
