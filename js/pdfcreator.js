@@ -1,6 +1,6 @@
 function pdfCreator(){
 
-var orgName = document.getElementById('orgName').value;
+var orgName = document.getElementById('orgName');
 
 var docDefinition = {
   content: [
@@ -37,5 +37,5 @@ var docDefinition = {
 
 var pdf = pdfMake.createPdf(docDefinition).download();
 
-console.log(orgName);
+console.log(orgName.value);
 }
