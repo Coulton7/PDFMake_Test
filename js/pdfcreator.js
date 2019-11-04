@@ -1,6 +1,6 @@
 function pdfCreator(){
 
-var pdfmake = require('js/pdfmake.min.js');
+var pdfmake = ('js/pdfmake.min.js');
 
 var docDefinition = {
   content: [
