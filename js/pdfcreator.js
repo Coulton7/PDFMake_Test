@@ -5,6 +5,12 @@ var orgPhone = document.getElementById('orgPhone');
 var orgEmail = document.getElementById('orgEmail');
 
 var docDefinition = {
+
+  info: {
+    title: 'POLICY TO PREVENT GLOBAL WARMING',
+    subject: 'POLICY TO PREVENT GLOBAL WARMING'
+  },
+
   content: [
     {text:'POLICY TO PREVENT GLOBAL WARMING', style: 'header'},
     {text:'The health of the Earth is essential to not just business, but also species survival.', style: 'subheader'},
