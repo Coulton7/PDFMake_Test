@@ -34,11 +34,11 @@ var docDefinition = {
 
   styles: {
     header: {
-      fontSize: 18,
+      fontSize: 26,
       alignment: 'center'
     },
     subheader: {
-      fontSize: 15,
+      fontSize: 20,
     },
     defaultStyle: {
       fontSize: 12
