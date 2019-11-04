@@ -1,3 +1,5 @@
+function pdfCreator(){
+
 var pdfmake = require('js/pdfmake.min.js');
 
 var docDefinition = {
@@ -32,3 +34,4 @@ var docDefinition = {
 };
 
 var pdf = pdfmake.createPdf(docDefinition).download();
+};
