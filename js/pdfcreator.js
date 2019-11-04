@@ -6,7 +6,8 @@ var docDefinition = {
   content: [
     {text:'POLICY TO PREVENT GLOBAL WARMING', style: 'header'},
     {text:'The health of the Earth is essential to not just business, but also species survival.', style: 'subheader'},
-    'The Health, Safety and Welfare of all the stakeholders in our Group is the primary concern of the Board of', orgName.value,
+    'The Health, Safety and Welfare of all the stakeholders in our Group is the primary concern of the Board of',
+    orgName.value,
     'The Group has consistently put sustainability projects first for capital investment and has now decided to debate and publish a policy to prevent global warming through technological change and investment decisions.',
     {
     ul: [
