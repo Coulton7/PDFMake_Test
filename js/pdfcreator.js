@@ -36,12 +36,14 @@ var docDefinition = {
     header: {
       fontSize: 26,
       alignment: 'center',
-      color: '#002a5b'
+      color: '#002a5b',
+      bold: true
     },
     subheader: {
       fontSize: 20,
       alignment: 'center',
-      color : '#002a5b'
+      color : '#002a5b',
+      bold: true
     },
     defaultStyle: {
       fontSize: 12
