@@ -51,6 +51,6 @@ var docDefinition = {
   }
 };
 
-var pdf = pdfMake.createPdf(docDefinition).download();
+var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
 
 }
