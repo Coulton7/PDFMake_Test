@@ -25,6 +25,9 @@ var docDefinition = {
     subheader: {
       fontSize: 15,
     }
+    defaultStyle: {
+      fontSize: 12
+    }
   }
 };
 
