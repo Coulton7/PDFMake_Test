@@ -35,10 +35,13 @@ var docDefinition = {
   styles: {
     header: {
       fontSize: 26,
-      alignment: 'center'
+      alignment: 'center',
+      color: '#002a5b'
     },
     subheader: {
       fontSize: 20,
+      alignment: 'center',
+      color : '#002a5b'
     },
     defaultStyle: {
       fontSize: 12
