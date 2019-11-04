@@ -1,7 +1,5 @@
 function pdfCreator(){
 
-var pdfmake = ('js/pdfmake.min.js');
-
 var docDefinition = {
   content: [
     {text:'POLICY TO PREVENT GLOBAL WARMING', style: 'header'},
