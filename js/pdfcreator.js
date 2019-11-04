@@ -36,4 +36,6 @@ var docDefinition = {
 };
 
 var pdf = pdfMake.createPdf(docDefinition).download();
+
+console.log(orgName);
 }
