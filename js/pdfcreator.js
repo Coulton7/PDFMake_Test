@@ -15,7 +15,17 @@ var docDefinition = {
       'Current or potential supplier input is welcomed, including their use of the global hotline where necessary.'
     ],
     'The Board of AES Engineering Ltd. encourages the use of the global “hotline” on 0800-374199 or by email on aessealhotline@expolink.co.uk to assist with the discreet implementation of this policy where necessary.'
-  ]
+  ],
+
+  styles: {
+    header: {
+      fontSize: 18,
+      alignment: 'center'
+    },
+    subheader: {
+      fontSize: 15,
+    }
+  }
 };
 
 var pdf = pdfmake.createPdf(docDefinition).download();
