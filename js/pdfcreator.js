@@ -23,7 +23,7 @@ var docDefinition = {
       'Current or potential supplier input is welcomed, including their use of the global hotline where necessary.'
     ],
   },
-    {text:['The Board of', orgName.value, '. encourages the use of the global “hotline” on',  orgPhone.value, ' or by email on ', orgEmail.value, 'to assist with the discreet implementation of this policy where necessary.']}
+    {text:['The Board of ', orgName.value, '. encourages the use of the global “hotline” on ',  orgPhone.value, ' or by email on ', orgEmail.value, 'to assist with the discreet implementation of this policy where necessary.']}
   ],
 
   styles: {
