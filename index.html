@@ -32,12 +32,30 @@
         <p class="text-center">Simply enter your own business information in the form below to create your own personalized policy.</p>
 
         <div class="col-sm-8 col-sm-offset-2">
-          <label for="orgName">Business Name: </label>
-          <input name="orgName" type="text" maxlength="60" id="orgName" placeholder="Enter Business Name" class="form-control" />
-          <label for="orgPhone">Phone Number: </label>
-          <input name="orgPhone" type="text" maxlength="60" id="orgPhone" placeholder="Enter Phone Number" class="form-control" />
-          <label for="orgEmail">Enter Email: </label>
-          <input name="orgEmail" type="text" maxlength="60" id="orgEmail" placeholder="Enter Email" class="form-control" />
+          <div class="col-sm-5>"
+            <label for="orgName">Business Name: </label>
+            <input name="orgName" type="text" maxlength="60" id="orgName" placeholder="Enter Business Name" class="form-control" />
+            <label for="orgEmail">Enter Email: </label>
+            <input name="orgEmail" type="text" maxlength="60" id="orgEmail" placeholder="Enter Email" class="form-control" />
+          </div>
+          <div class="col-sm-5">
+            <label for="orgPhone">Phone Number: </label>
+            <input name="orgPhone" type="text" maxlength="60" id="orgPhone" placeholder="Enter Phone Number" class="form-control" />
+            <label for="orgWorkers">Enter Number of Employees: </label>
+            <input name:"orgWorkers" type="text" maxlength="60" id="orgWorkers" placeholder="Enter number of Employees" class="form-control">
+          </div>
+          <div class="col-sm-12">
+            <label for="orgType">Please select business type: </label>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Option 1</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="optradio">Option 2</label>
+            </div>
+            <div class="radio disabled">
+              <label><input type="radio" name="optradio">Option 3</label>
+            </div>
+          </div>
           <br>
           <div class="btn-container">
             <button id="createPDF" class="btn-primary btn btn-lg" onclick="hideshow">Create the Policy</button>
