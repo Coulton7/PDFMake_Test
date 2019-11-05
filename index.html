@@ -15,13 +15,17 @@
   <script src="js/vfs_fonts.js"></script>
   <script type="text/javascript" src="js/pdfcreator.js"></script>
   <script>
-  var button = document.getElementById('createPDF')
-  button.addEventListener('click',hideshow,false);
-  function hideshow(){
-    document.getElementById(createPDF).style.display='none';
-    document.getElementById(downloadPDF).style.display='block';
-    document.getElementById(savePDF).style.display='block';
-  }
+    (function($){
+      $(document).ready(){
+        var button = document.getElementById('createPDF')
+        button.addEventListener('click',hideshow,false);
+        function hideshow(){
+          document.getElementById(createPDF).style.display='none';
+          document.getElementById(downloadPDF).style.display='block';
+          document.getElementById(savePDF).style.display='block';
+        }
+      }
+    });
   </script>
 </head>
 
@@ -39,8 +43,7 @@
           <label for="orgPhone">Phone Number: </label>
           <input name="orgPhone" type="text" maxlength="60" id="orgPhone" placeholder="Enter Phone Number" class="form-control" />
           <label for="orgEmail">Enter Email: </label>
-          <input name="orgEmail" type="text" maxlength="60" id="orgEmail"
-          placeholder="Enter Email" class="form-control" />
+          <input name="orgEmail" type="text" maxlength="60" id="orgEmail" placeholder="Enter Email" class="form-control" />
           <br>
           <div class="btn-container">
             <button id="createPDF" class="btn-primary btn btn-lg">Create the Policy</button>
