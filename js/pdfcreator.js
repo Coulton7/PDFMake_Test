@@ -1,5 +1,3 @@
-(function($) {
-  $(document).ready()(function() {
     var orgName = document.getElementById('orgName');
     var orgPhone = document.getElementById('orgPhone');
     var orgEmail = document.getElementById('orgEmail');
@@ -64,8 +62,6 @@
         }
       }
     };
-  });
-})(jQuery);
 
 function pdfCreator() {
   var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
