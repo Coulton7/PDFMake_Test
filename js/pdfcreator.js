@@ -11,7 +11,7 @@ var docDefinition = {
     subject: 'POLICY TO PREVENT GLOBAL WARMING'
   },
 
-  pageMargins: [35, 80, 35, 60],
+  pageMargins: [45, 120, 45, 60],
 
   content: [
     {text:'POLICY TO PREVENT GLOBAL WARMING\n\n', style: 'header'},
