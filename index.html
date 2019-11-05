@@ -16,7 +16,7 @@
   <script type="text/javascript" src="js/pdfcreator.js"></script>
   <script>
     (function($){
-      $(document).ready(){
+      $(document).ready()(function(){
         var button = document.getElementById('createPDF')
         button.addEventListener('click',hideshow,false);
         function hideshow(){
@@ -24,7 +24,7 @@
           document.getElementById(downloadPDF).style.display='block';
           document.getElementById(savePDF).style.display='block';
         }
-      }
+      })
     });
   </script>
 </head>
