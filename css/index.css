@@ -7,3 +7,11 @@
   color: #ffffff;
   background-color: #002a5b;
 }
+
+#downloadPDF, #savePDF{
+  display: none;
+}
+
+#createPDF{
+  display: block;
+}
