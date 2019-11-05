@@ -1,5 +1,3 @@
-function pdfCreator(){
-
 var orgName = document.getElementById('orgName');
 var orgPhone = document.getElementById('orgPhone');
 var orgEmail = document.getElementById('orgEmail');
@@ -53,6 +51,10 @@ var docDefinition = {
   }
 };
 
+function pdfCreator(){
 var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
+}
 
+function pdfPrinter(){
+  var pdf = pdfMake.createPdf(docDefinition).print('Policy-to-prevent-Global-Warming.pdf');
 }
