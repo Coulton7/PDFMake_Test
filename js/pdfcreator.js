@@ -74,6 +74,6 @@ function pdfCreator() {
   var pdf = pdfMake.createPdf(docDefinition).download('Policy-to-prevent-Global-Warming.pdf');
 }
 
-function pdfPrinter() {
-  var pdf = pdfMake.createPdf(docDefinition).print('Policy-to-prevent-Global-Warming.pdf');
+function pdfOpen() {
+  var pdf = pdfMake.createPdf(docDefinition).open('Policy-to-prevent-Global-Warming.pdf');
 }
